@@ -1,0 +1,24 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+android/.gradle/
+android/app/proguard/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.dart-tools/
+
+# IDE related
+.idea/
+.vscode/
+*.iml
+
+# Misc
+*.log
+*.tmp
+*.DS_Store
