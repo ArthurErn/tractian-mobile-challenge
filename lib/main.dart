@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'Asset Tree App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        textTheme: GoogleFonts.robotoTextTheme(), // Usando a fonte Roboto
+        textTheme: GoogleFonts.robotoTextTheme(),
         appBarTheme: AppBarTheme(
           color: Colors.blueAccent,
           elevation: 2,

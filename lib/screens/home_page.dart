@@ -45,7 +45,8 @@ class HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-                      trailing: const Icon(Icons.arrow_forward_ios, color: Colors.blueAccent),
+                      trailing: const Icon(Icons.arrow_forward_ios,
+                          color: Colors.blueAccent),
                       onTap: () async {
                         await dataProvider.fetchLocations(companies[index].id);
                         await dataProvider.fetchAssets(companies[index].id);
@@ -53,7 +54,8 @@ class HomePageState extends State<HomePage> {
                           // ignore: use_build_context_synchronously
                           context,
                           MaterialPageRoute(
-                            builder: (_) => AssetPage(companyName: companies[index].name),
+                            builder: (_) =>
+                                AssetPage(companyName: companies[index].name),
                           ),
                         );
                       },
